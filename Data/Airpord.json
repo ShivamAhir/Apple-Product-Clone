@@ -1,0 +1,38 @@
+[
+    {
+        "id":0,
+        "bool":false,
+        "name":"Apple AirPods (2nd Generation)",
+        "size":"Brand Apple",
+        "display":"Colour White",
+        "link":"https://m.media-amazon.com/images/I/71djnhmfy-L._SX679_.jpg",
+        "price":"12,499 Rs"
+    },
+    {
+        "id":1,
+        "bool":true,
+        "name":"Apple AirPods (3rd Generation)",
+        "size":"Brand Apple",
+        "display":"Colour White",
+        "link":"https://m.media-amazon.com/images/I/61jMxzQcPjL._SX679_.jpg",
+        "price":"19,900 Rs"
+    },
+    {
+        "id":2,
+        "bool":false,
+        "name":"Apple AirPods Pro (2nd Generation) ​​​​​​​",
+        "size":"Brand Apple",
+        "display":"Colour White",
+        "link":"https://m.media-amazon.com/images/I/61sRKTAfrhL._SX679_.jpg",
+        "price":"26,900 Rs"
+    },
+    {
+        "id":3,
+        "bool":false,
+        "name":"Apple AirPods Max Wireless Over-Ear Headphones",
+        "size":"Active Noise Cancelling, Transparency Mode, Spatial Audio",
+        "display":"Digital Crown for Volume Control. Bluetooth Headphones for iPhone - Space Gray",
+        "link":"https://m.media-amazon.com/images/I/813LwotY94L._AC_SX679_.jpg",
+        "price":"59,900 Rs"
+    }
+]

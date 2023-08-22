@@ -1,0 +1,38 @@
+[
+    {
+        "id":0,
+        "bool":true,
+        "name":"iPad Pro",
+        "size":"27.94 cm (11.0-inch)",
+        "display":"Full HD display*",
+        "link":"https://rukminim1.flixcart.com/image/832/832/xif0q/tablet/l/v/b/-original-imagj72vqgydzs3m.jpeg?q=70",
+        "price":"95,900 Rs"
+    },
+    {
+        "id":1,
+        "bool":false,
+        "name":"iPad air",
+        "size":"27.69 cm (10.9-inch)",
+        "display":"Full HD display*",
+        "link":"https://rukminim1.flixcart.com/image/832/832/kf75fgw0/tablet/n/h/h/apple-myfy2hn-a-original-imafvpqayqxjggew.jpeg?q=70",
+        "price":"49,900 Rs"
+    },
+    {
+        "id":2,
+        "bool":false,
+        "name":"iPad",
+        "size":"25.9 cm (10.2-inch)",
+        "display":"Full HD display*",
+        "link":"https://rukminim1.flixcart.com/image/832/832/ktop5e80/tablet/s/l/b/mk2k3hn-a-apple-original-imag6yy7wn9are6s.jpeg?q=70",
+        "price":"30,900 Rs"
+    },
+    {
+        "id":3,
+        "bool":false,
+        "name":"iPad mini",
+        "size":"20.1 cm (7.9-inch)",
+        "display":"Full HD display*",
+        "link":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxkQvibdue3QluJxVtxpgGEmQNQu09_YEYr-d1m5cArwsQ4QOjm2ZuvYjUEZZc8ZAz5E&usqp=CAU",
+        "price":"41,900 Rs"
+    }
+]

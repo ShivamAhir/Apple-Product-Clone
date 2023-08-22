@@ -1,0 +1,56 @@
+[
+    {
+        "id":0,
+        "bool":true,
+        "name":"Apple MacBook Pro (13, M2, 2022)",
+        "size":"33.74 cm (13.3-inch)",
+        "display":"Retina Display, 8GB RAM, 256GB SSD ​​​​​​​Storage",
+        "link":"https://m.media-amazon.com/images/I/71a0bMsxeLL._SX679_.jpg",
+        "price":"1,29,900 Rs"
+    },
+    {
+        "id":1,
+        "bool":false,
+        "name":"Apple MacBook air (13, M2, 2020)",
+        "size":"34.46 cm (13.6-inch)",
+        "display":"Liquid Retina Display, 8GB RAM, 256GB SSD Storage",
+        "link":"https://m.media-amazon.com/images/I/71f5Eu5lJSL._SX679_.jpg",
+        "price":"1,06,999 Rs"
+    },
+    {
+        "id":2,
+        "bool":false,
+        "name":"Apple MacBook Pro (16, M1, 2021)",
+        "size":"(16-inch/41.05 cm",
+        "display":"M1 Max chip with 10‑core CPU and 32‑core GPU, 32GB RAM, 1TB SSD) - Silver",
+        "link":"https://m.media-amazon.com/images/I/61Y30DpqRVL._SX679_.jpg",
+        "price":"3,19,900 Rs"
+    },
+    {
+        "id":3,
+        "bool":false,
+        "name":"APPLE 2020 Macbook Air M1  ",
+        "size":"27.94 cm (13.3-inch)",
+        "display":"Space Grey, 1.29 kg)",
+        "link":"https://rukminim1.flixcart.com/image/832/832/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70",
+        "price":"81,900 Rs"
+    },
+    {
+        "id":4,
+        "bool":false,
+        "name":"Apple 2021 iMac",
+        "size":"24-inch/60.96 cm",
+        "display":"Retina Display (M1 chip with 8‑core CPU and 7‑core GPU, 8GB RAM, 256GB) - Green",
+        "link":"https://m.media-amazon.com/images/I/31rcaXjLX-S._SY445_SX342_QL70_FMwebp_.jpg",
+        "price":"1,19,900 Rs"
+    },
+    {
+        "id":5,
+        "bool":false,
+        "name":"Apple 2020 Mac Mini M1 chip",
+        "size":" 8‑core CPU and 8‑core GPU",
+        "display":"8GB RAM, 512GB SSD -Silver",
+        "link":"https://m.media-amazon.com/images/I/71pcTYT+ICL._SX679_.jpg",
+        "price":"64,900 Rs"
+    }
+]

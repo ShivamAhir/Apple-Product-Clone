@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone</title>
+    <style>
+        p{
+            font-size: 20px;
+        }
+        .product{
+            width: 400px;
+            margin-top: 70px;
+        }
+        #one{
+            margin-top: 30px;
+            float: inline-end;
+            display: inline-flex;
+            justify-content: center;
+        }
+        #two,#three{
+            display: inline-block;
+            width: 650px;
+        }
+        #two:hover,#three:hover{
+            background-color: rgb(249, 240, 249);
+        }
+        #two{
+           
+            height: 600px;
+            /* background-color: blue; */}
+        #three{
+           margin-left: 30px;
+            text-align: center;
+            /* background-color: red; */
+        }
+        .buy-button,.Show-details{
+            background-color: black;
+            color: aliceblue;
+            font-size: 20px;
+            border-radius: 20px;
+            height: 40px;
+            margin-left: 10px;
+        }
+        .buy-button{
+            width: 100px;
+        }
+        .Show-details{
+            width: 100px;
+        }
+        #record{
+            margin-left: 30px;
+            margin-top: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div id="one">
+        <div id="two">
+            <div id="record">
+                <div>
+                    <p id="stock">{{%stock%}}</p>
+                    <h1 id="name">{{%name%}}</h1>
+                    <p id="size">{{%size%}}</p>
+                    <p id="display">{{%Display%}}</p>
+                </div>
+                <div>
+                    <!-- <a><button class="buy-button">Buy</button></a> -->
+                    <a href="{{%id%}}"><button class="Show-details">Details</button></a>
+                </div>
+            </div>
+        </div>
+        <div id="three">
+            <img class="product" src={{%link%}} alt="product-image">
+            <p id="price">{{%price%}}</p>
+        </div>
+    </div>
+    <script>
+       let price=document.querySelector('#price').innerHTML;
+       if(price=="Price : ")
+       {
+        document.querySelector('#price').innerHTML="";
+       }
+    </script>
+</body>
+</html>

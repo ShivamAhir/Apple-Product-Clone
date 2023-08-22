@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container{
+            margin-top: 100px;
+            float: inline-end;
+            display: inline-flex;
+            justify-content: center;
+            min-height: 600px;
+        }
+        .container-two{
+            margin-top: 100px;
+        }
+        .container-one,.container-two{
+            display: inline-block;
+            width: 600px;
+        }
+
+        .product-logo{
+            width: 400px;
+        }
+        .add-to-cart,.buy-now{
+            background-color: black;
+            color: aliceblue;
+            font-size: 20px;
+            border-radius: 20px;
+            height: 40px;
+        }
+        .add-to-cart{
+            width: 180px;
+            margin-left: 130px;
+        }
+        .buy-now{
+            width: 150px;
+            margin-left: 10px;
+        }
+        .button-div{
+            display: flex;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="container-one">
+            <div>
+                <img id="link" class="product-logo" src={{%link%}}>               
+            </div>
+            <div class="button-div">
+               <div class="add-to-cart-button">
+                    <form id="form" method="post" action="getCurrentURL()">
+                        <button class="add-to-cart">ADD TO CART</button>
+                    </form>
+               </div>
+                <div class="buy-button">
+                    <form  action="/buy" method="post" onsubmit="setCurrentURL()">
+                        <input type="hidden" name="current_url" id="current_url">
+                        <button class="buy-now" type="submit">BUY NOW</button>
+                      </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container-two">
+            <div>
+                <div>
+                    <p>{{%stock%}}</p>
+                    <h1 id="name">{{%name%}}</h1>
+                    <p id="size">{{%size%}}</p>
+                    <p id="display">{{%Display%}}</p>
+                    <p >Price: <i class="fa-sharp fa-solid fa-indian-rupee-sign" style="color: #000000;"></i><span id="price">{{%price%}}</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let price=document.querySelector('#price').innerHTML;
+        // let iPrice=document.querySelector('#iPrice').value.replace("{{vaibhav}}",price);
+        // document.querySelector('#iPrice').value=iPrice;
+        
+        if(price=="")
+        {
+            document.querySelector('.add-to-cart').style.visibility="hidden";
+            document.querySelector('.buy-now').style.visibility="hidden";
+        }
+
+        function getCurrentURL () {
+            return window.location.href
+
+        }
+        function setCurrentURL() {
+        const currentUrlInput = document.getElementById('current_url');
+        if (currentUrlInput) {
+            currentUrlInput.value = getCurrentURL();
+        }
+        }
+        // Example
+        const url = getCurrentURL()
+        document.querySelector('#form').action=url;
+    </script>
+</body>
+</html>

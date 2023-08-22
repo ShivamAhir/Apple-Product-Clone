@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .left-box-cart{
+            width: 70vw;
+        }
+        .product-logo{
+            width: 300px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 200px;
+        }
+        #container-cart{
+            display: flex;                  
+           
+        }
+
+        #product-description{
+            margin-left: 100px;
+            width: 30%;
+        }
+        .trd-box{
+            /* margin-left: 140px; */
+            width: 30%;
+        }
+        .img{
+            width: 30vw;
+        }
+    </style>
+</head>
+<body>
+   <div class="left-box-cart">
+    <hr>
+
+    <div id="container-cart">
+        <div id="product-image">
+            <img id="link" class="product-logo" src={{%link%}} alt="product-image">
+        </div>
+        <div id="product-description">
+            <p>{{%stock%}}</p>
+            <p>{{%name%}}</p>
+            <p>{{%size%}}</p>
+            <p>{{%Display%}}</p>
+            <!-- <p>Colour : {{%color%}}</p>
+            <p>Size : {{RamStorage}}</p> -->
+
+        </div>
+        <div class="trd-box">
+            <p>Price</p>
+            <p> <i class="fas fa-indian-rupee-sign" style="color: #000000;"></i>
+                {{%price%}}</p>
+            <p>
+                Qty: <select name="items" id="items">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </p>
+            <form action="/delete" method="POST">
+                <input type="hidden" name="itemId" value="{{%button-id%}}">
+                <button class="delete-button" type="submit">Delete</button>
+              </form>
+        </div>
+    </div>
+ </div>
+   <script>
+
+   </script>
+</body>
+</html>

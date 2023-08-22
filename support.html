@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Support</title>
+    <style>
+        .supprt-main-page{
+            min-height: 600px;
+            margin-top: 150px;
+        }
+        .contact{
+            margin-left: 40px;
+        }
+        form{
+            margin-top: 100px;
+        }
+        .form-child{
+            margin-top: 30px;
+        }
+        .costomer-feedbak:hover {
+            background-color: rgb(236, 236, 236);
+        }
+        .costomer-feedbak{
+            width: 700px;
+            height: 250px;
+            font-size: 30px;
+            margin-top: 30px;
+            border-top-right-radius: 30px;
+        }
+        .customer-name{
+            width: 350px;
+            height: 40px;
+            margin-left: 50px;
+        }
+        .customer-name-label{
+            margin-left: -150px;
+        }
+        .customer-name-label,.customer-name{
+            font-size: 20px;
+        }
+        .customer-complain-label{
+            margin-left: -520px;
+            font-size: 20px;
+        }
+        .mail-submit-button{
+            margin-left: 610px;
+            background-color: black;
+            color: white;
+            width: 90px;
+            height: 40px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="supprt-main-page">
+        <h1 id="heading">How can we help you?</h1>
+        <p><i class="fa-solid fa-mobile"></i><a class="contact" href="tel:+917701891644">call us</a></p>
+        <p><i class="fa-solid fa-envelope"></i><a class="contact" href = "mailto:11shivam00@gmail.com">mail us</a></p>
+        <form action="mailto:11shivam00@gmail.com" method="post" enctype="text/plain">
+           <div class="form-child">
+                <label class="customer-name-label">Customer Name:</label>
+                <input class="customer-name" type="text" name="sname" placeholder="Enter Your Name">
+           </div>
+            <div class="form-child">
+                <label class="customer-complain-label">Customer Complain:</label>
+                <br/>
+                <input class="costomer-feedbak" type="text" name="ssubject" placeholder="Costomer-feedback">
+            </div>
+           <div  class="form-child">
+                <input class="mail-submit-button" type="submit" value="Send">
+           </div>
+         </form>
+        
+    </div>
+</body>
+</html>

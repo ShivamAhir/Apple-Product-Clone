@@ -1,0 +1,83 @@
+[
+    {
+        "id":0,
+        "bool":true,
+        "name":"iPhone 14 Pro Max",
+        "size":"17.00 cm (6.7-inch)",
+        "display":"Super Retina XDR display*",
+        "link":"https://m.media-amazon.com/images/I/71T5NVOgbpL._SX679_.jpg",
+        "price":"1,37,999 Rs"
+    },
+    {
+        "id":1,
+        "bool":false,
+        "name":"iPhone 14 Pro",
+        "size":"15.54 cm (6.1-inch)",
+        "display":"Super Retina XDR display*",
+        "link":"https://m.media-amazon.com/images/I/61lKQWyMdDL._SX679_.jpg",
+        "price":"1,19,999 Rs"
+    },
+    {
+        "id":2,
+        "bool":false,
+        "name":"iPhone 14 Plus",
+        "size":"16.95 cm (6.7-inch)",
+        "display":"Super Retina XDR display*",
+        "link":"https://m.media-amazon.com/images/I/31vkGCNbjnL._SY445_SX342_QL70_FMwebp_.jpg",
+        "price":"84,900 Rs"
+    },
+    {
+        "id":3,
+        "bool":false,
+        "name":"iPhone 14",
+        "size":"15.40 cm (6.1-inch)",
+        "display":"Super Retina XDR display*",
+        "link":"https://m.media-amazon.com/images/I/31F7pQ4P6KL._SY445_SX342_QL70_FMwebp_.jpg",
+        "price":"67,999 Rs"
+    },
+    {
+        "id":4,
+        "bool":false,
+        "name":"iPhone 13 Pro Max",
+        "size":"17.00 cm (6.7-inch)",
+        "display":"Super Retina XDR display*",
+        "link":"https://m.media-amazon.com/images/I/611ovP2GkrL._SX679_.jpg",
+        "price":"1,37,999 Rs"
+    },
+    {
+        "id":5,
+        "bool":false,
+        "name":"iPhone 13 Pro ",
+        "size":"15.40 cm (6.1-inch)",
+        "display":"Super Retina XDR display*",
+        "link":"https://m.media-amazon.com/images/I/617FFRO3vcL._SX679_.jpg",
+        "price":"1,19,990 Rs"
+    },
+    {
+        "id":6,
+        "bool":false,
+        "name":"iPhone 13",
+        "size":"15.40 cm (6.1-inch)",
+        "display":"Super Retina XDR display*",
+        "link":"https://m.media-amazon.com/images/I/71gm8v4uPBL._SX679_.jpg",
+        "price":"61,490 Rs"
+    },
+    {
+        "id":7,
+        "bool":false,
+        "name":"iPhone 13 mini",
+        "size":"13.80 cm (5.4-inch)",
+        "display":"Super Retina XDR display*",
+        "link":"https://m.media-amazon.com/images/I/71X6mnUDSzL._SX679_.jpg",
+        "price":"69,990 Rs"
+    },
+    {
+        "id":8,
+        "bool":false,
+        "name":"iPhone SE",
+        "size":"11.94 cm (4.7-inch)",
+        "display":"Retina HD display*",
+        "link":"https://m.media-amazon.com/images/I/31eq5m7D5uL._SY445_SX342_QL70_FMwebp_.jpg",
+        "price":"54,900 Rs"
+    }
+]
